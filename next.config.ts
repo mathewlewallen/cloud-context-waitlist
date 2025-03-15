@@ -1,7 +1,7 @@
 import withBundleAnalyzer from "@next/bundle-analyzer"
 import { type NextConfig } from "next"
-
-import { env } from "./env.mjs"
+import withNextIntl from "next-intl/plugin"
+import { env } from "@cc/env.mjs"
 
 const config: NextConfig = {
   reactStrictMode: true,
@@ -18,4 +18,10 @@ const config: NextConfig = {
   ],
 }
 
-export default env.ANALYZE ? withBundleAnalyzer({ enabled: env.ANALYZE })(config) : config
+const nextIntlConfig = withNextIntl("./i18n.ts")(config)
+
+const finalConfig = env.ANALYZE
+  ? withBundleAnalyzer({ enabled: env.ANALYZE })(nextIntlConfig)
+  : nextIntlConfig
+
+export default finalConfig

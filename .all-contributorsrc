@@ -1,6 +1,6 @@
 {
-  "projectName": "next-enterprise",
-  "projectOwner": "Blazity",
+  "projectName": "cloud-context-waitlist",
+  "projectOwner": "mathewlewallen",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -9,7 +9,7 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [
+  /*"contributors": [
     {
       "login": "bmstefanski",
       "name": "Bart Stefanski",
@@ -37,7 +37,7 @@
         "doc"
       ]
     }
-  ],
+  ],*/
   "contributorsPerLine": 7,
   "linkToUsage": true,
   "commitType": "docs"

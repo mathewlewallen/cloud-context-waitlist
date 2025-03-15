@@ -5,12 +5,20 @@ node_modules
 .pnp
 .pnp.js
 
+#jsons
+/jsons
+
+# examples
+/examples
+
 # testing
 coverage
 
 # next.js
 .next/
 out/
+
+# production
 build
 
 # misc
@@ -24,13 +32,27 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
+.env
+
+# storybook
 storybook-static/
+
+# test results
 /test-results/
+
+# playwright
 /playwright-report/
 /playwright/.cache/
 
 /.npm-only-allow
+
+# vercel
+.vercel
+
+# backup
+backup/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
