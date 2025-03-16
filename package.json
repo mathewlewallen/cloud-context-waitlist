@@ -89,7 +89,7 @@
     "imap": "^0.8.19",
     "jotai": "^2.10.2",
     "lodash": "^4.17.21",
-    "lucide-react": "^0.456.0",
+    "lucide-react": "^0.482.0",
     "mailparser": "^3.7.1",
     "moment": "^2.30.1",
     "next": "15.1.6",
