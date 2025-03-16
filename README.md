@@ -90,7 +90,7 @@ Most CRMs **don’t handle transactions**—we do. **Seamlessly integrate paymen
 - [Testing](#-testing)
   - [Running Tests](#running-tests)
   - [Acceptance & Smoe Tests](#acceptance--smoke-tests)
-- [Styling & Design System](#styling--design-system)
+- [Styling & Design System](#styling--ui)
   - [CVA - A New Approach to Variants](#cva---a-new-approach-to-variants)
 - [State Management](#-state-management)
 - [Environment Variables handling](#-environment-variables-handling)
@@ -119,6 +119,8 @@ With this template you will get all the awesomeness you need:
 - 🏎️ **[Next.js 15+ w/ App Router](https://nextjs.org/)** - Fast, modern React framework with performance optimizations
 - 💅 **[Tailwind CSS & CVA](https://tailwindcss.com/)** - Utility-first styling and a flexible design system
 - ✨ **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)** - Enforced code quality and consistency
+---this will be changed to Biome/Ultracite
+- **Turborepo**
 - 🛠️ **[Extremely strict TypeScript](https://www.typescriptlang.org/)** - With [`ts-reset`](https://github.com/total-typescript/ts-reset) library for ultimate type safety
 - 🚀 **[GitHub Actions](https://github.com/features/actions)** - Pre-configured actions for smooth workflows, including Bundle Size and performance stats
 - 💯 **Perfect Lighthouse score** - Because performance matters

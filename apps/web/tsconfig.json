@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "@cc/typescript-config/nextjs.json",
+    "@cc/cms/typescript-config.json"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@cc/*": ["../../packages/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "next.config.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ]
+}

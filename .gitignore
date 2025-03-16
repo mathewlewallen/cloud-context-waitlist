@@ -14,9 +14,11 @@ node_modules
 # testing
 coverage
 
-# next.js
+# builds
 .next/
 out/
+build
+dist
 
 # production
 build
@@ -50,9 +52,21 @@ storybook-static/
 # vercel
 .vercel
 
+# turbo
+.turbo
+
 # backup
 backup/
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# BaseHub
+.basehub
+
+# AI Rules
+.cursorrules

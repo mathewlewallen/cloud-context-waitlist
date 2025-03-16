@@ -1,7 +1,7 @@
 import "@cc/styles/globals.css";
 
 import { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { UIProvider } from '@cc/ui';
 
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
@@ -13,7 +13,6 @@ import { Toaster as SonnerToaster } from "@cc/components/ui/sonner";
 import { Toaster } from "@cc/components/ui/toaster";
 import languineConfig from "../../../languine.json";
 
-const inter = Inter({ subsets: ["latin"] });
 
 type Props = {
   children: ReactNode;
@@ -110,11 +109,13 @@ export default async function RootLayout(props: Props) {
         <meta name="twitter:image" content="https://nextcrm.io/api/og" />
       </head>
       <body className={inter.className + " min-h-screen"}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}
+        <UIProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              {children}
           </ThemeProvider>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </UIProvider>
         <Toaster />
         <SonnerToaster />
       </body>

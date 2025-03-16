@@ -10,7 +10,7 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
-    "analyze": "cross-env ANALYZE=true pnpm run build",
+    "analyze": "turbo analyze",
     "storybook": "cross-env FORCE_COLOR=1 storybook dev -p 6006",
     "test-storybook": "cross-env FORCE_COLOR=1 test-storybook",
     "build-storybook": "cross-env FORCE_COLOR=1 storybook build",
