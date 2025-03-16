@@ -3,7 +3,7 @@ import { getModules } from "@cc/actions/get-modules";
 import ModuleMenu from "./ModuleMenu";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@cc/lib/auth";
-import { getDictionary } from "@cc/dictionaries";
+import { getDictionary } from "@cc/internationalization/dictionaries";
 
 const SideBar = async ({ build }: { build: number }) => {
   const session = await getServerSession(authOptions);

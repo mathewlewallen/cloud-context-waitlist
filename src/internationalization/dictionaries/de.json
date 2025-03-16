@@ -1,0 +1,27 @@
+{
+  "RootLayout": {
+    "description": "KI-gestützte CRM-, CMS- und Automatisierungsplattform."
+  },
+  "ModuleMenu": {
+    "crm": {
+      "title": "Vertrieb"
+    },
+    "tasks": "Aufgaben"
+  },
+  "DashboardPage": {
+    "totalRevenue": "Gesamtumsatz",
+    "containerDescription": "Einblicke anzeigen und Arbeitsabläufe automatisieren.",
+    "expectedRevenue": "Erwarteter Umsatz",
+    "activeUsers": "Aktive Benutzer",
+    "opportunities": "Deals",
+    "myTasks": "Meine Aufgaben"
+  },
+  "RegisterComponent": {
+    "cardTitle": "Neues Konto erstellen",
+    "cardDescription": "Konto erstellen durch Anmeldung mit",
+    "locale": "{locale, select, de {Deutsch} en {Englisch} cz {Tschechisch} uk {Ukrainisch} other {Unbekannt}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "Vertrieb"
+  }
+}

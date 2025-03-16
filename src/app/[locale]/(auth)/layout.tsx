@@ -16,7 +16,7 @@ type Props = {
 
 async function getLocales(locale: string) {
   try {
-    return (await import(`@cc/locales/${locale}.json`)).default;
+    return (await import(`@cc/internationalization/dictionaries/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }

@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-import { getDictionary } from "@cc/dictionaries";
+import { getDictionary } from "@cc/internationalization/dictionaries";
 
 import Container from "./components/ui/Container";
 import NotionsBox from "./components/dasboard/notions";

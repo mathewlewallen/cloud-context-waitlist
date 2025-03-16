@@ -1,0 +1,22 @@
+{
+  "projectId": "prj_zlkKQBi9GskoB5A54C49A",
+  "locale": {
+    "source": "en",
+    "targets": [
+      "es",
+      "fr",
+      "cz",
+      "de",
+      "uk",
+      "pt",
+      "zh"
+    ]
+  },
+  "files": {
+    "json": {
+      "include": [
+        "src/internationalization/dictionaries/[locale].json"
+      ]
+    }
+  }
+}

@@ -39,6 +39,6 @@
     "jest.config.js",
     ".next/types/**/*.ts",
     "eslint.config.mjs"
-  ],
+, "src/app/providers/asef"  ],
   "exclude": ["node_modules"]
 }

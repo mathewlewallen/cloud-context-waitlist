@@ -1,0 +1,27 @@
+{
+  "RootLayout": {
+    "description": "CRM, CMS a automatizační platforma poháněná AI."
+  },
+  "ModuleMenu": {
+    "crm": {
+      "title": "Prodej"
+    },
+    "tasks": "Úkoly"
+  },
+  "DashboardPage": {
+    "totalRevenue": "Celkové příjmy",
+    "containerDescription": "Zobrazit přehledy a automatizovat pracovní postupy.",
+    "expectedRevenue": "Očekávané příjmy",
+    "activeUsers": "Aktivní uživatelé",
+    "opportunities": "Obchody",
+    "myTasks": "Moje úkoly"
+  },
+  "RegisterComponent": {
+    "cardTitle": "Vytvořit nový účet",
+    "cardDescription": "Vytvořit účet přihlášením pomocí",
+    "locale": "{locale, select, de {němčina} en {angličtina} cz {čeština} uk {ukrajinština} other {neznámý}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "Prodej"
+  }
+}

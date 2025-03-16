@@ -1,0 +1,27 @@
+{
+  "RootLayout": {
+    "description": "人工智能驱动的客户关系管理、内容管理系统和自动化平台。"
+  },
+  "ModuleMenu": {
+    "crm": {
+      "title": "销售"
+    },
+    "tasks": "任务"
+  },
+  "DashboardPage": {
+    "totalRevenue": "总收入",
+    "containerDescription": "查看洞察并自动化工作流程。",
+    "expectedRevenue": "预期收入",
+    "activeUsers": "活跃用户",
+    "opportunities": "交易",
+    "myTasks": "我的任务"
+  },
+  "RegisterComponent": {
+    "cardTitle": "创建新账户",
+    "cardDescription": "通过登录创建账户",
+    "locale": "{locale, select, de {德语} en {英语} cz {捷克语} uk {乌克兰语} other {未知}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "销售"
+  }
+}

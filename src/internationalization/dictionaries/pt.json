@@ -1,0 +1,27 @@
+{
+  "RootLayout": {
+    "description": "Plataforma de CRM, CMS e automação alimentada por IA."
+  },
+  "ModuleMenu": {
+    "crm": {
+      "title": "Vendas"
+    },
+    "tasks": "Tarefas"
+  },
+  "DashboardPage": {
+    "totalRevenue": "Receita total",
+    "containerDescription": "Veja insights e automatize fluxos de trabalho.",
+    "expectedRevenue": "Receita esperada",
+    "activeUsers": "Usuários ativos",
+    "opportunities": "Negócios",
+    "myTasks": "Minhas tarefas"
+  },
+  "RegisterComponent": {
+    "cardTitle": "Criar nova conta",
+    "cardDescription": "Criar conta fazendo login com",
+    "locale": "{locale, select, de {Alemão} en {Inglês} cz {Tcheco} uk {Ucraniano} other {Desconhecido}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "Vendas"
+  }
+}

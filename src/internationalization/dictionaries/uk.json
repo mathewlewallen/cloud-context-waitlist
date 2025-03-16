@@ -1,0 +1,27 @@
+{
+  "RootLayout": {
+    "description": "CRM, CMS та автоматизаційна платформа на базі ШІ."
+  },
+  "ModuleMenu": {
+    "crm": {
+      "title": "Продажі"
+    },
+    "tasks": "Завдання"
+  },
+  "DashboardPage": {
+    "totalRevenue": "Загальний дохід",
+    "containerDescription": "Перегляньте аналітику та автоматизуйте робочі процеси.",
+    "expectedRevenue": "Очікуваний дохід",
+    "activeUsers": "Активні користувачі",
+    "opportunities": "Угоди",
+    "myTasks": "Мої завдання"
+  },
+  "RegisterComponent": {
+    "cardTitle": "Створити новий акаунт",
+    "cardDescription": "Створити акаунт, увійшовши за допомогою",
+    "locale": "{locale, select, de {Німецька} en {Англійська} cz {Чеська} uk {Українська} other {Невідомо}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "Продажі"
+  }
+}

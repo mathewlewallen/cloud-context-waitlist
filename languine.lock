@@ -1,0 +1,40 @@
+version: 1
+files:
+  src/internationalization/dictionaries/en.json:
+    RootLayout.title: be184d33bd81d7a5fda65d346a79140c
+    RootLayout.description: 152059b58589d5657380b152fcc662b6
+    ModuleMenu.dashboard: 2938c7f7e560ed972f8a4f68e80ff834
+    ModuleMenu.crm.title: 11ff9f68afb6b8b5b8eda218d7c83a65
+    ModuleMenu.crm.accounts: edefbda3a2bdd979e42d8944b7325b79
+    ModuleMenu.crm.opportunities: 4df218a3a5287bb3badab9dcd6f41080
+    ModuleMenu.crm.contacts: 9aa698f602b1e5694855cee73a683488
+    ModuleMenu.crm.leads: ae5361473c0038d7f8c4b4236c50b2da
+    ModuleMenu.crm.contracts: cd494d76449d5dfe0c0adfb2f3447761
+    ModuleMenu.projects: 54e1d44609e3abed11f6e1eb6ae54988
+    ModuleMenu.emails: f422d7de703d8ee5139aa77f857afdbf
+    ModuleMenu.tasks: ef615563c8e8ea902c7fcac3cd2c4246
+    ModuleMenu.invoices: fce9a6a1bd2a2050eb86d33103f46fd3
+    ModuleMenu.reports: c91c7b93c28cd18741b71f727ee81ee3
+    ModuleMenu.documents: f28128b38efbc6134dc40751ee21fd29
+    ModuleMenu.storage: 8c4aa541ee911e8d80451ef8cc304806
+    ModuleMenu.settings: 7258e7251413465e0a3eb58094430bde
+    DashboardPage.containerTitle: 2938c7f7e560ed972f8a4f68e80ff834
+    DashboardPage.totalRevenue: 65d238c01fa53c110a6ee0b04699374c
+    DashboardPage.containerDescription: ddb9c51109cb268a4cb6d93ccfb8e8cf
+    DashboardPage.expectedRevenue: 3f1a7856537688ac81dffb4341dce0ad
+    DashboardPage.activeUsers: d194459e07a9cf5f26a0ec776fa58dcb
+    DashboardPage.accounts: edefbda3a2bdd979e42d8944b7325b79
+    DashboardPage.opportunities: d6ab0ea8f96d1a1f3cdc4f5110d2e45e
+    DashboardPage.contacts: 9aa698f602b1e5694855cee73a683488
+    DashboardPage.leads: ae5361473c0038d7f8c4b4236c50b2da
+    DashboardPage.projects: 54e1d44609e3abed11f6e1eb6ae54988
+    DashboardPage.tasks: ef615563c8e8ea902c7fcac3cd2c4246
+    DashboardPage.myTasks: 24897a2d2e319b5257e59cd149ab2271
+    DashboardPage.invoices: fce9a6a1bd2a2050eb86d33103f46fd3
+    DashboardPage.documents: f28128b38efbc6134dc40751ee21fd29
+    DashboardPage.storage: 8c4aa541ee911e8d80451ef8cc304806
+    RegisterComponent.cardTitle: 1aa668d559a3a32a44796aeee6978a59
+    RegisterComponent.cardDescription: ab8bf9881cc0551c88ee170261ba0b3c
+    RegisterComponent.label: 4994a8ffeba4ac3140beb89e8d41f174
+    RegisterComponent.locale: 855c5f9471f4f7f7655a86a920c88e3e
+    CrmModuleMenuComponent.menuTitle: 11ff9f68afb6b8b5b8eda218d7c83a65

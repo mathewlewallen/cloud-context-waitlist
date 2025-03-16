@@ -20,6 +20,64 @@ Don't forget to leave a ⭐ on [GitHub](https://github.com/mathewlewallen) and j
 
 Check it out [here](https://cloudcontext.cc)
 
+# **Business OS: The Ultimate AI-Powered CRM + CMS + Marketing Automation Suite**
+
+## **🚀 The Product**
+**Business OS** is an all-in-one, AI-powered **CRM, CMS, Marketing Automation, Social Engagement, Omnichannel Communication, Payments, and Invoicing solution**—designed to eliminate the need for fragmented business tools.
+
+## **❌ The Problem: High Costs & Complexity**
+Businesses waste **capital and time** integrating multiple, expensive SaaS tools:  
+
+| **Feature** | **Existing Solutions** | **Cost** |
+|------------|--------------------|-----------|
+| **CRM** | Salesforce, HubSpot, Zoho | $50-$100/month per user |
+| **CMS** | Webflow, WordPress, Ghost | $10-$50/month |
+| **Marketing Automation** | Mailchimp, ActiveCampaign | $20-$100/month |
+| **Payments & Invoicing** | Stripe, Paddle, QuickBooks | 2-5% per transaction |
+| **AI-powered Assistants** | ChatGPT Enterprise, AI tools | $20-$50/month |
+
+Businesses **shouldn’t have to juggle multiple tools** just to manage customers, content, marketing, and revenue.
+
+## **✅ The Solution: One System. One Price. One Integration.**
+A single **AI-powered business platform** that lets you:  
+**📢 Create content → 📈 Capture leads → 🔥 Convert customers → 🤖 Automate follow-ups → 📊 Analyze results**  
+**All in one place, with AI-driven insights.**
+
+---
+
+## **🔥 Key Features & Benefits**
+### **📩 Marketing Automation**
+Most CRMs require **manual** follow-ups and email campaigns. **Business OS automates everything**:
+- ✅ **AI-powered lead segmentation**  
+- ✅ **Automated email & WhatsApp campaigns**  
+- ✅ **AI-driven content recommendations**  
+
+### **🤖 AI-Powered Sales & Productivity**
+Sales & marketing teams **waste hours** on **manual tasks**. **Our AI eliminates that inefficiency**:  
+- ✅ **AI-generated sales emails & replies** (GPT-4/LLaMA)  
+- ✅ **Automatic meeting & call summaries** (Transcribe & summarize Zoom/phone calls)  
+- ✅ **Predictive lead scoring** (AI ranks leads based on behavior & engagement)  
+
+### **📡 Social & Omnichannel Communication**
+Sales & engagement happen **everywhere**, not just email. **Business OS connects all channels**:  
+- ✅ **All-in-one inbox** (Sync WhatsApp, LinkedIn, Slack, SMS, & email)  
+- ✅ **AI-generated LinkedIn & WhatsApp follow-ups**  
+- ✅ **Omnichannel chat widget** (WhatsApp, Messenger, website—all CRM-logged)  
+
+### **💳 Payments & Invoicing (Built-In)**
+Most CRMs **don’t handle transactions**—we do. **Seamlessly integrate payments**:  
+- ✅ **Convert leads → Close deals → Get paid in one workflow**  
+- ✅ **Automate invoice generation & payment reminders**  
+- ✅ **Track revenue directly inside the CRM**  
+
+---
+
+## **🔗 Why Choose Business OS?**
+✔ **No more paying for multiple tools**—one system does it all.  
+✔ **AI-powered automation**—reduce manual work and boost efficiency.  
+✔ **Future-proof technology**—built with **Next.js 15, Prisma, AI, and real-time integrations.**  
+✔ **Scalable & customizable**—grow with your business, not against it.  
+
 ---
 
 ## Table of Contents
@@ -258,7 +316,7 @@ function Counter() {
 
 We use [T3 Env](https://env.t3.gg/) for validating and transforming environment variables at build time.
 
-Example configuration `env.mjs`:
+Example configuration `env.ts`:
 ```ts
 import { z } from 'zod'
 import { createEnv } from 't3-env' // or your chosen env library

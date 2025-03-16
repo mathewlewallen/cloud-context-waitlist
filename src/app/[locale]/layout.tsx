@@ -3,13 +3,15 @@ import "@cc/styles/globals.css";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { ReactNode } from "react";
 
-import { Toaster } from "@cc/components/ui/toaster";
-import { Toaster as SonnerToaster } from "@cc/components/ui/sonner";
 import { ThemeProvider } from "@cc/app/providers/ThemeProvider";
+import { Toaster as SonnerToaster } from "@cc/components/ui/sonner";
+import { Toaster } from "@cc/components/ui/toaster";
+import languineConfig from "../../../languine.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,7 @@ type Props = {
 
 async function getLocales(locale: string) {
   try {
-    return (await import(`@cc/locales/${locale}.json`)).default;
+    return (await import(`@cc/internationalization/dictionaries/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }
@@ -61,6 +63,13 @@ export async function generateMetadata(props: Props) {
   };
 }
 
+// Validate that the incoming `locale` parameter is valid
+export function generateStaticParams() {
+  return [...languineConfig.locale.targets, languineConfig.locale.source].map(
+    (locale) => ({ locale }),
+  );
+}
+
 export default async function RootLayout(props: Props) {
   const params = await props.params;
 
@@ -72,7 +81,7 @@ export default async function RootLayout(props: Props) {
     children
   } = props;
 
-  const messages = await getLocales(locale);
+  const messages = await getMessages();
 
   return (
     <html lang={locale} suppressHydrationWarning>
