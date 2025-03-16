@@ -72,7 +72,7 @@
     "@tremor/react": "^3.18.4",
     "@uploadthing/react": "^7.1.1",
     "@vercel/otel": "^1.8.3",
-    "ai": "^3.4.33",
+    "ai": "^4.1.61",
     "autoprefixer": "^10.4.21",
     "aws-crt": "^1.23.0",
     "axios": "^1.7.7",
