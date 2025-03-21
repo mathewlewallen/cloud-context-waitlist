@@ -92,7 +92,7 @@
     "lucide-react": "^0.456.0",
     "mailparser": "^3.7.1",
     "moment": "^2.30.1",
-    "next": "15.1.6",
+    "next": "15.2.3",
     "next-auth": "^4.24.10",
     "next-intl": "3.26.3",
     "next-themes": "^0.4.3",
@@ -188,7 +188,7 @@
     "typed-query-selector": "^2.12.0",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.21.0",
-    "webpack": "5.89.0"
+    "webpack": "5.94.0"
   },
   "engines": {
     "node": ">=22.0.0"
